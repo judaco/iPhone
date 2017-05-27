@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8006B31ED9DF3F00D825AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8006B21ED9DF3F00D825AE /* main.m */; };
+		AF8006B61ED9DF3F00D825AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8006B51ED9DF3F00D825AE /* AppDelegate.m */; };
+		AF8006B91ED9DF3F00D825AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8006B81ED9DF3F00D825AE /* ViewController.m */; };
+		AF8006BC1ED9DF3F00D825AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8006BA1ED9DF3F00D825AE /* Main.storyboard */; };
+		AF8006BE1ED9DF3F00D825AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8006BD1ED9DF3F00D825AE /* Assets.xcassets */; };
+		AF8006C11ED9DF3F00D825AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8006BF1ED9DF3F00D825AE /* LaunchScreen.storyboard */; };
+		AF8006CA1ED9DF9400D825AE /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8006C91ED9DF9400D825AE /* NewsItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF8006AE1ED9DF3F00D825AE /* Background Fetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Background Fetch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8006B21ED9DF3F00D825AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF8006B41ED9DF3F00D825AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF8006B51ED9DF3F00D825AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF8006B71ED9DF3F00D825AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF8006B81ED9DF3F00D825AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF8006BB1ED9DF3F00D825AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF8006BD1ED9DF3F00D825AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8006C01ED9DF3F00D825AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF8006C21ED9DF3F00D825AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8006C81ED9DF8500D825AE /* NewsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		AF8006C91ED9DF9400D825AE /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8006AB1ED9DF3F00D825AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8006A51ED9DF3F00D825AE = {
+			isa = PBXGroup;
+			children = (
+				AF8006B01ED9DF3F00D825AE /* Background Fetch */,
+				AF8006AF1ED9DF3F00D825AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8006AF1ED9DF3F00D825AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8006AE1ED9DF3F00D825AE /* Background Fetch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8006B01ED9DF3F00D825AE /* Background Fetch */ = {
+			isa = PBXGroup;
+			children = (
+				AF8006B41ED9DF3F00D825AE /* AppDelegate.h */,
+				AF8006B51ED9DF3F00D825AE /* AppDelegate.m */,
+				AF8006B71ED9DF3F00D825AE /* ViewController.h */,
+				AF8006B81ED9DF3F00D825AE /* ViewController.m */,
+				AF8006C81ED9DF8500D825AE /* NewsItem.h */,
+				AF8006C91ED9DF9400D825AE /* NewsItem.m */,
+				AF8006BA1ED9DF3F00D825AE /* Main.storyboard */,
+				AF8006BD1ED9DF3F00D825AE /* Assets.xcassets */,
+				AF8006BF1ED9DF3F00D825AE /* LaunchScreen.storyboard */,
+				AF8006C21ED9DF3F00D825AE /* Info.plist */,
+				AF8006B11ED9DF3F00D825AE /* Supporting Files */,
+			);
+			path = "Background Fetch";
+			sourceTree = "<group>";
+		};
+		AF8006B11ED9DF3F00D825AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF8006B21ED9DF3F00D825AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8006AD1ED9DF3F00D825AE /* Background Fetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8006C51ED9DF3F00D825AE /* Build configuration list for PBXNativeTarget "Background Fetch" */;
+			buildPhases = (
+				AF8006AA1ED9DF3F00D825AE /* Sources */,
+				AF8006AB1ED9DF3F00D825AE /* Frameworks */,
+				AF8006AC1ED9DF3F00D825AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Background Fetch";
+			productName = "Background Fetch";
+			productReference = AF8006AE1ED9DF3F00D825AE /* Background Fetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8006A61ED9DF3F00D825AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Juda;
+				TargetAttributes = {
+					AF8006AD1ED9DF3F00D825AE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AF8006A91ED9DF3F00D825AE /* Build configuration list for PBXProject "Background Fetch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8006A51ED9DF3F00D825AE;
+			productRefGroup = AF8006AF1ED9DF3F00D825AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8006AD1ED9DF3F00D825AE /* Background Fetch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8006AC1ED9DF3F00D825AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8006C11ED9DF3F00D825AE /* LaunchScreen.storyboard in Resources */,
+				AF8006BE1ED9DF3F00D825AE /* Assets.xcassets in Resources */,
+				AF8006BC1ED9DF3F00D825AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8006AA1ED9DF3F00D825AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8006B91ED9DF3F00D825AE /* ViewController.m in Sources */,
+				AF8006CA1ED9DF9400D825AE /* NewsItem.m in Sources */,
+				AF8006B61ED9DF3F00D825AE /* AppDelegate.m in Sources */,
+				AF8006B31ED9DF3F00D825AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF8006BA1ED9DF3F00D825AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8006BB1ED9DF3F00D825AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF8006BF1ED9DF3F00D825AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8006C01ED9DF3F00D825AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8006C31ED9DF3F00D825AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF8006C41ED9DF3F00D825AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8006C61ED9DF3F00D825AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Background Fetch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juda.Background-Fetch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF8006C71ED9DF3F00D825AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Background Fetch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juda.Background-Fetch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8006A91ED9DF3F00D825AE /* Build configuration list for PBXProject "Background Fetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8006C31ED9DF3F00D825AE /* Debug */,
+				AF8006C41ED9DF3F00D825AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8006C51ED9DF3F00D825AE /* Build configuration list for PBXNativeTarget "Background Fetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8006C61ED9DF3F00D825AE /* Debug */,
+				AF8006C71ED9DF3F00D825AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8006A61ED9DF3F00D825AE /* Project object */;
+}
