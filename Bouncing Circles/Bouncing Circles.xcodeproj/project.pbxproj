@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8006A41ED9D95C00D825AE /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8006A31ED9D95C00D825AE /* Pig.m */; };
 		AF905C8F1ECF06D5004C2A82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF905C8E1ECF06D5004C2A82 /* main.m */; };
 		AF905C921ECF06D5004C2A82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF905C911ECF06D5004C2A82 /* AppDelegate.m */; };
 		AF905C951ECF06D5004C2A82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF905C941ECF06D5004C2A82 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF8006A21ED9D94600D825AE /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		AF8006A31ED9D95C00D825AE /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pig.m; path = ../Pig.m; sourceTree = "<group>"; };
 		AF905C8A1ECF06D5004C2A82 /* Bouncing Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bouncing Circles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF905C8E1ECF06D5004C2A82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF905C901ECF06D5004C2A82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				AF905C911ECF06D5004C2A82 /* AppDelegate.m */,
 				AF905C931ECF06D5004C2A82 /* ViewController.h */,
 				AF905C941ECF06D5004C2A82 /* ViewController.m */,
+				AF8006A21ED9D94600D825AE /* Pig.h */,
+				AF8006A31ED9D95C00D825AE /* Pig.m */,
 				AF905C961ECF06D5004C2A82 /* Main.storyboard */,
 				AF905C991ECF06D5004C2A82 /* Assets.xcassets */,
 				AF905C9B1ECF06D5004C2A82 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8006A41ED9D95C00D825AE /* Pig.m in Sources */,
 				AF905C951ECF06D5004C2A82 /* ViewController.m in Sources */,
 				AF905C921ECF06D5004C2A82 /* AppDelegate.m in Sources */,
 				AF905C8F1ECF06D5004C2A82 /* main.m in Sources */,
@@ -315,6 +321,7 @@
 				AF905CA31ECF06D5004C2A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
